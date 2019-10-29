@@ -45,8 +45,14 @@ def pi(num):
 # print(pi(16))
 
 # 1.8
-Pi = pi(100000)
-def showInfo(r):
-    print(r**2 * Pi, '圆的面积')
-    print(2 * r * Pi, "圆的周长")
-showInfo(5.5)
+# Pi = pi(100000)
+# def showInfo(r):
+#     print(r**2 * Pi, '圆的面积')
+#     print(2 * r * Pi, "圆的周长")
+# showInfo(5.5)
+
+# 1.9
+# def rectangle(w, h):
+#     print(w * h, "矩形的面积")
+#     print(2 * (w + h), "矩形的周长")
+# rectangle(4.5, 7.9)
