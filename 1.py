@@ -31,16 +31,16 @@
 # print(total)
 
 # 1.7
-def pi(num):
-    step = 0
-    total = 0
-    for i in range(1, num, 2):
-        if step % 2 != 0 :
-           total += - (1 / i)
-        else:
-            total += (1 / i)
-        step += 1
-    return 4 * total
+# def pi(num):
+#     step = 0
+#     total = 0
+#     for i in range(1, num, 2):
+#         if step % 2 != 0 :
+#            total += - (1 / i)
+#         else:
+#             total += (1 / i)
+#         step += 1
+#     return 4 * total
 # print(pi(1000000))
 # print(pi(16))
 
@@ -58,3 +58,64 @@ def pi(num):
 # rectangle(4.5, 7.9)
 
 # 1.10
+# def aveSpeed():
+#     time = 45 * 60 + 30
+#     li =  14
+#     _speed = li / time
+#     return _speed * 3600 / 1.6
+# print(aveSpeed(), '平均速度/英里')
+
+# 1.11
+# def peopleNum():
+#     currentPeople = 3120324986
+#     time = 365 * 24 * 60 * 60
+#     for i in range(1, 6):
+#         currentPeople += time // 7
+#         currentPeople -= time // 13
+#         currentPeople -= time // 45
+#         print('第%d年的总人数是%d' % (i, currentPeople))
+# peopleNum()
+
+# 1.12
+# import turtle
+# def zhengfangxing():
+#     turtle.showturtle()
+#     turtle.right(90)
+#     turtle.forward(100)
+#     turtle.right(90)
+#     turtle.forward(100)
+#     turtle.right(90)
+#     turtle.forward(200)
+#     turtle.right(90)
+#     turtle.forward(200)
+#     turtle.right(90)
+#     turtle.forward(200)
+#     turtle.right(90)
+#     turtle.forward(100)
+#     turtle.penup()
+#     turtle.goto(-100, 0)
+#     turtle.pendown()
+#     turtle.right(180)
+#     turtle.forward(200)
+#     turtle.penup()
+#     turtle.goto(0, 100)
+#     turtle.pendown()
+#     turtle.right(90)
+#     turtle.forward(100)
+#     turtle.done()
+# zhengfangxing()
+
+# 1.13
+# def shizi():
+#     turtle.showturtle()
+#     turtle.penup()
+#     turtle.goto(-100, 0)
+#     turtle.pendown()
+#     turtle.forward(200)
+#     turtle.penup()
+#     turtle.goto(0, 100)
+#     turtle.right(90)
+#     turtle.pendown()
+#     turtle.forward(200)
+#     turtle.done()
+# shizi()
