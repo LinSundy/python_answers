@@ -77,7 +77,7 @@
 # peopleNum()
 
 # 1.12
-# import turtle
+import turtle
 # def zhengfangxing():
 #     turtle.showturtle()
 #     turtle.right(90)
@@ -119,3 +119,70 @@
 #     turtle.forward(200)
 #     turtle.done()
 # shizi()
+
+# 1.14
+# def sanjiao():
+#     turtle.showturtle()
+#     turtle.right(60)
+#     turtle.forward(100)
+#     turtle.right(120)
+#     turtle.forward(100)
+#     turtle.right(120)
+#     turtle.forward(100)
+#     turtle.done()
+# sanjiao()
+
+# 1.15
+# def twoSanjiao():
+#     turtle.showturtle()
+#     turtle.right(60)
+#     turtle.forward(100)
+#     turtle.right(120)
+#     turtle.forward(100)
+#     turtle.right(120)
+#     turtle.forward(200)
+#     turtle.right(240)
+#     turtle.forward(100)
+#     turtle.right(240)
+#     turtle.forward(100)
+#     turtle.done()
+# twoSanjiao()
+
+# 1.16
+# def circle():
+#     turtle.showturtle()
+#     turtle.penup()
+#     turtle.goto(-50, 50)
+#     turtle.pendown()
+#     turtle.circle(50)
+#     turtle.penup()
+#     turtle.goto(50, 50)
+#     turtle.pendown()
+#     turtle.circle(50)
+#     turtle.penup()
+#     turtle.goto(50, -50)
+#     turtle.pendown()
+#     turtle.circle(50)
+#     turtle.penup()
+#     turtle.goto(-50, -50)
+#     turtle.pendown()
+#     turtle.circle(50)
+#     turtle.done()
+# circle()
+
+# 1.17
+# def zhixian():
+#     turtle.showturtle()
+#     turtle.penup()
+#     turtle.goto(-39, 48)
+#     turtle.write('(-39, 48)')
+#     turtle.color('red')
+#     turtle.pendown()
+#     turtle.goto(50, -50)
+#     turtle.color('black')
+#     turtle.write('(50, -50)')
+#     turtle.done()
+# zhixian()
+
+# 1.18
+
