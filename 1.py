@@ -77,7 +77,6 @@
 # peopleNum()
 
 # 1.12
-import turtle
 # def zhengfangxing():
 #     turtle.showturtle()
 #     turtle.right(90)
@@ -186,3 +185,25 @@ import turtle
 
 # 1.18
 
+import turtle
+
+
+def star():
+    turtle.showturtle()
+    turtle.penup()
+    turtle.goto(0, 100)
+    turtle.pendown()
+    turtle.right(72)
+    turtle.forward(300)
+    turtle.right(144)
+    turtle.forward(300)
+    turtle.right(144)
+    turtle.forward(300)
+    turtle.right(144)
+    turtle.forward(300)
+    turtle.right(144)
+    turtle.forward(300)
+    turtle.done()
+
+
+star()
