@@ -119,6 +119,8 @@
 #     turtle.done()
 # shizi()
 
+import turtle
+t = turtle.Turtle()
 # 1.14
 # def sanjiao():
 #     turtle.showturtle()
@@ -171,39 +173,93 @@
 
 # 1.17
 # def zhixian():
-#     turtle.showturtle()
-#     turtle.penup()
-#     turtle.goto(-39, 48)
-#     turtle.write('(-39, 48)')
-#     turtle.color('red')
-#     turtle.pendown()
-#     turtle.goto(50, -50)
-#     turtle.color('black')
-#     turtle.write('(50, -50)')
+#     t.showturtle()
+#     t.penup()
+#     t.goto(-39, 48)
+#     t.write('(-39, 48)')
+#     t.color('red')
+#     t.pendown()
+#     t.goto(50, -50)
+#     t.color('black')
+#     t.write('(50, -50)')
 #     turtle.done()
 # zhixian()
 
 # 1.18
-
-import turtle
-
-
-def star():
-    turtle.showturtle()
-    turtle.penup()
-    turtle.goto(0, 100)
-    turtle.pendown()
-    turtle.right(72)
-    turtle.forward(300)
-    turtle.right(144)
-    turtle.forward(300)
-    turtle.right(144)
-    turtle.forward(300)
-    turtle.right(144)
-    turtle.forward(300)
-    turtle.right(144)
-    turtle.forward(300)
-    turtle.done()
+# def star():
+#     import turtle
+#     turtle.showturtle()
+#     turtle.penup()
+#     turtle.goto(0, 100)
+#     turtle.pendown()
+#     turtle.right(72)
+#     turtle.forward(300)
+#     turtle.right(144)
+#     turtle.forward(300)
+#     turtle.right(144)
+#     turtle.forward(300)
+#     turtle.right(144)
+#     turtle.forward(300)
+#     turtle.right(144)
+#     turtle.forward(300)
+#     turtle.done()
+# star()
 
 
-star()
+# 1.19
+# def duobianxing():
+#     t.showturtle()
+#     t.penup()
+#     t.goto(40, -69.28)
+#     t.pendown()
+#     t.goto(-40, -69.28)
+#     t.goto(-80, -9.8)
+#     t.goto(-40, 69)
+#     t.goto(40, 69)
+#     t.goto(80, 0)
+#     t.goto(40, -69.28)
+#     turtle.done()
+# duobianxing()
+
+
+# 1.20
+# def lifangti():
+#   t.showturtle()
+#   t.penup()
+#   t.goto(-100, 50)
+#   t.pendown()
+#   t.goto(100, 50)
+#   t.goto(60, 10)
+#   t.goto(-140, 10)
+#   t.goto(-100, 50)
+
+
+#   t.penup()
+#   t.goto(-100, -50)
+#   t.pendown()
+#   t.goto(100, -50)
+#   t.goto(60, -90)
+#   t.goto(-140, -90)
+#   t.goto(-100, -50)
+
+#   t.penup()
+#   t.goto(100, 50)
+#   t.pendown()
+#   t.goto(100, -50)
+
+#   t.penup()
+#   t.goto(-100, 50)
+#   t.pendown()
+#   t.goto(-100, -50)
+
+#   t.penup()
+#   t.goto(60, 10)
+#   t.pendown()
+#   t.goto(60, -90)
+
+#   t.penup()
+#   t.goto(-140, 10)
+#   t.pendown()
+#   t.goto(-140, -90)
+#   turtle.done()
+# lifangti()
